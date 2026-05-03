@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Main Results: Prompt Tuning vs Fine-Tuning}
+\label{tab:main}
+\begin{tabular}{llcccc}
+\toprule
+Method & Dataset & Accuracy & Macro F1 & Params\% & Time \\
+\midrule
+Full Fine-Tuning & Bangla & 0.6164 & 0.5759 & 100.000 & 132.18min \\
+P-Tuning v2 & Bangla & 0.4460 & 0.2056 & 0.516 & 164.75min \\
+Prefix Tuning & Bangla & 0.4474 & 0.2235 & 1.316 & 165.97min \\
+Soft Prompt Tuning & Bangla & 0.4744 & 0.3838 & 0.439 & 178.03min \\
+\midrule
+Full Fine-Tuning & IMDb & 0.8841 & 0.8841 & 100.000 & 69.38min \\
+P-Tuning v2 & IMDb & 0.8196 & 0.8196 & 0.515 & 106.2min \\
+Prefix Tuning & IMDb & 0.8810 & 0.8810 & 1.316 & 99.67min \\
+Soft Prompt Tuning & IMDb & 0.6747 & 0.6741 & 0.439 & 96.36min \\
+\bottomrule
+\end{tabular}
+\end{table}

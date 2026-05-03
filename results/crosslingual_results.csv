@@ -1,0 +1,5 @@
+method,en_accuracy,en_macro_f1,bn_accuracy,bn_macro_f1,transfer_gap
+Full Fine-Tuning,0.8837,0.8837,0.6083,0.5953,0.2884
+Soft Prompt Tuning,0.6472,0.6471,0.4906,0.4804,0.1667
+Prefix Tuning,0.8797,0.8796,0.5585,0.5393,0.3404
+P-Tuning v2,0.8421,0.8421,0.6196,0.5319,0.3102

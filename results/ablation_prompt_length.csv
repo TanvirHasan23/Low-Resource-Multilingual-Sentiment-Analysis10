@@ -1,0 +1,5 @@
+method,method_key,run_name,num_labels,n_train,n_eval,accuracy,macro_f1,weighted_f1,trainable_params,total_params,param_pct,train_time_min,num_virtual_tokens,num_epochs,prompt_length
+Soft Prompt Tuning,soft_prompt,abl_spt_len10,2,1000,25000,0.58592,0.5739641778545078,0.5739641778545078,1191940,278644996,0.4278,11.14,10,5,10
+Soft Prompt Tuning,soft_prompt,abl_spt_len20,2,1000,25000,0.59064,0.5905037615842701,0.5905037615842701,1199620,278652676,0.4305,11.34,20,5,20
+Soft Prompt Tuning,soft_prompt,abl_spt_len50,2,1000,25000,0.5846,0.5704915326663527,0.5704915326663528,1222660,278675716,0.4387,11.6,50,5,50
+Soft Prompt Tuning,soft_prompt,abl_spt_len100,2,1000,25000,0.60344,0.6034098439190758,0.6034098439190758,1261060,278714116,0.4525,12.43,100,5,100

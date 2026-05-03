@@ -1,0 +1,4 @@
+Comparison,p_value,significant,FT_F1_CI,Other_F1_CI
+FT vs Soft Prompt Tuning,0.0,True,"0.8841 [0.8804, 0.8879]","0.6742 [0.6683, 0.6797]"
+FT vs Prefix Tuning,0.0845,False,"0.8841 [0.8804, 0.8879]","0.8812 [0.8772, 0.8853]"
+FT vs P-Tuning v2,0.0,True,"0.8841 [0.8804, 0.8879]","0.8197 [0.8149, 0.8244]"
